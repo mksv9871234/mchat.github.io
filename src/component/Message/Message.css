@@ -1,0 +1,13 @@
+
+
+
+.right{
+    float: right;
+    background-color:rgb(234, 54, 54);
+    color: white;
+}
+.left{
+    float: left;
+    background-color: rgb(138, 254, 142);
+    color: black;
+}

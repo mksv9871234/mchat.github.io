@@ -1,0 +1,87 @@
+.chatPage{
+    background-color: rgb(41, 73, 73);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer{
+    width:50%;
+    border: 5px solid white;
+    height: 70%;
+}
+@media only screen and (max-width:768px){
+    .chatContainer{
+        width:100% !important;
+        height: 100% !important;
+    }
+    .chatPage{
+        height: 93.8vh;
+        overflow-y: hidden;
+    }
+    .header div{
+        width: 60% !important;
+        text-align: right;
+    }
+}
+.header{
+    width: 100%;
+    background-color: rgb(234, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    color: white;
+    font-size: 24px;
+}
+.header h3{
+    font-family: "Protest Revolution", sans-serif;
+
+}
+.header div{
+    width: 430px;
+    text-align: right;
+}
+.closeIcon{
+    margin:0 10px;
+    cursor:pointer;
+    transition:all 0.3s;
+    color: white;
+}
+.closeIcon:hover{
+    transform: scale(1.2);
+    font-weight: 700;
+}
+.chatBox{
+    height: 80%;
+    width: 100%;
+}
+.chatInput{
+    background-color: pink;
+    width: 100%;
+    display: flex;
+}
+.chatInput input{
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+}
+.chatInput button{
+   background-color: rgb(234, 54, 54);
+   width: 150px;
+   color: white;
+   font-size: large;
+   cursor: pointer;
+   transition: all 0.3s;
+
+}
+.chatInput button:hover{
+    background-color: rgb(187, 27, 27);
+}
+
+.chatInput button div .sendIcon{
+    transform: rotate(40deg);
+}
+
+

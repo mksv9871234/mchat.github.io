@@ -1,0 +1,71 @@
+
+.joinPage{
+    background-color: rgb(41, 73, 73);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:768px){
+       .joinPage{
+        height: 93.8vh !important;
+       } 
+} 
+.Joincontainer{
+    width:50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.Joincontainer img{
+    width: 12vmax;
+    text-align: center;
+    margin: 0 auto;
+}
+.Joincontainer > h1{
+    text-align: center;
+    border-bottom: 0.4vmax solid white;
+    color: white;
+    width: 16vmax;
+    margin: 0.8vmax auto 1.4vmax auto;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+}
+.inputField{
+    text-align: center;
+    margin: 0.8vmax 0 0.8vmax 0;
+}
+.inputField input{
+    padding: 15px;
+    width: 60%;
+}
+.inputField button{
+    width:65%;
+    padding: 15px;
+    margin: 2.2vmax 0;
+    background-color: rgb(234, 54, 54);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+@media (max-aspect-ratio:7/10){
+    .inputField button{
+        width: 92%;
+    }
+    .Joincontainer > h1{
+    width:55vw !important;
+    text-align: center !important;
+    }
+    .Joincontainer img{
+        text-align: center !important;
+    }
+    .inputField input{
+        width: 77%;
+    }
+
+}
